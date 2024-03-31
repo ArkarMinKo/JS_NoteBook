@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Book</title>
+    <script src="https://kit.fontawesome.com/6cbe0aac0f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <i class="fa-solid fa-arrows-rotate" id="clearall"></i>
+            <h1>P.P.A.K</h1>
+            <h2>Note Book</h1>
+            <date id="date" class="date"></date>
+            <day id="day" class="day"></day>
+            <time class="time" id="time"></time>
+        </div>
+        <div class="note">
+            <ul id="list">
+                <!-- <li>
+                    <i class="fa-regular fa-circle"></i>
+                    <p id="content">Poe Poe's Birthday</p>
+                    <span class="notedate" id="notedate">16 August 2006</span>
+                    <i class="fa-solid fa-trash"></i>
+                </li> -->
+            </ul>
+        </div>
+        <div class="footer">
+            <i class="fa-solid fa-circle-plus" id="addedvalue" onclick="AddtoValue()"></i>
+            <input type="text" name="add-to-note" id="addednote" placeholder="Add-to-Note" autofocus>
+            <i class="fa-regular fa-circle-xmark" onclick="CancelValue()"></i>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
